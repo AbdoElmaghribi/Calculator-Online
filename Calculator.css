@@ -1,0 +1,51 @@
+* {
+ background-color: teal;
+}
+input[type="text"] {
+ border: black solid 5px;
+ border-radius: 25px;
+ height: 80px;
+ width: 400px;
+ font-size: 50px;
+ background-color: white;
+ font-weight: bold;
+ cursor: default;
+ font-family: 'Roboto slab' , serif;
+ text-align: center;
+}
+.Input-Text {
+ text-align: center;
+}
+::placeholder {
+ color: black;
+}
+
+input[type="button"] {
+ background-color: white;
+ border: 5px black solid;
+ width: 100px;
+ height: 100px;
+ color: black;
+ font-family: 'Roboto slab' , serif;
+ font-size: 30px;
+ cursor: pointer;
+ transition: 0.5s;
+ font-weight: bold;
+}
+form {
+ text-align: center;
+ margin-left: 217px;
+ margin-right: 217px;
+ }
+ .Background {
+ background-color: tomato;
+ height: 500px;
+ margin-top: -479px;
+ color: tomato;
+ }
+.Button:hover {
+ background-color: #A4DE02;
+ transition: 0.5s;
+ border-radius: 50%;
+ color: black;
+ }

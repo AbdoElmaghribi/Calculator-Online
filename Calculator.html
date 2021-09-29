@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Calculator.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+<link rel="icon" sizes="192x192" href="./Untitled design.jpg">
+<title>Calculator</title>
+</head>
+<body>
+<form action="cal" name="cal">
+<div class="Input-Text"><input type="text" placeholder="000" name="text"></div>
+<br><br>
+<input class="Button" type="button" value="9" onclick="cal.text.value+='9'">
+<input class="Button" type="button" value="8" onclick="cal.text.value+='8'">
+<input class="Button" type="button" value="7" onclick="cal.text.value+='7'">
+<input class="Button" type="button" value="6" onclick="cal.text.value+='6'">
+<input class="Button" type="button" value="5" onclick="cal.text.value+='5'">
+<br>
+<input class="Button" type="button" value="4" onclick="cal.text.value+='4'">
+<input class="Button" type="button" value="3" onclick="cal.text.value+='3'">
+<input class="Button" type="button" value="2" onclick="cal.text.value+='2'">
+<input class="Button" type="button" value="1" onclick="cal.text.value+='1'">
+<input class="Button" type="button" value="0" onclick="cal.text.value+='0'">
+<br>
+<input class="Button" type="button" value="+" onclick="cal.text.value+='+'">
+<input class="Button" type="button" value="-" onclick="cal.text.value+='-'">
+<input class="Button" type="button" value="÷" onclick="cal.text.value+='/'">
+<input class="Button" type="button" value="×" onclick="cal.text.value+='*'">
+<input class="Button" type="button" value="," onclick="cal.text.value+='.'">
+<br>
+<input class="Button" type="button" value="DEL" onclick="cal.text.value=''">
+<input class="Button" type="button" value="=" onclick="cal.text.value=eval(cal.text.value)">
+</form>
+<div class="Background">.</div>
+</body>
+</html>
